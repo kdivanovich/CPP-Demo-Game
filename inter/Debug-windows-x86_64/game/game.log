@@ -1,0 +1,7 @@
+﻿  example_layer.cpp
+D:\CPP_Demo_Game\game\src\example_layer.cpp(812,51): warning C4244: 'argument': conversion from 'engine::camera::e_axis' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  game.vcxproj -> D:\CPP_Demo_Game\game\..\bin\Debug-windows-x86_64\game\game.exe
