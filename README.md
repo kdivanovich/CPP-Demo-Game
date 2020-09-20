@@ -1,21 +1,28 @@
-# Development
-
-1. Create and account on [bitbucket](https://bitbucket.org)
-2. Open the command line (or PowerShell) and clone the repository into your desired folder with this command `git clone --recurse-submodules -j8 https://L4ZZA@bitbucket.org/L4ZZA/engine.git`
-3. Install [GitKraken](https://www.gitkraken.com) (recommended)
-4. Open the previously cloned repository (see step 2).
-5. Run the batch script `generate_solution.bat`
-6. Open and build the whole solution (make sure it successfully does so).
-7. Read the section below and start developing.
-
-## Workflow
-Before starting with the fun, some precautions:
-
-- Always keep your local repository up to date with the remote one, by pulling the new changes as soon as they're available (on GitKraken it will show as an arrow down next to the branch name on the left).
-- Whatever you are going to do, never work directly on develop or on master branch. These to branches should be populated through merges (pull-requests).
-- Create your branch from wherever you need to (most likely develop) but before that just make sure your local develop is up-to-date with the remote one (a.k.a origin)
-- Before merging the branch create a pull request. Once the request has been discussed and approved then the creator of the branch can merge the branch to its parent (usually develop) and delete the branch.
-
-## Comments
-Anything that is not clear from the above instructions or from the code, create a descriptive issue on bitbucket and I'll try to make it clearer by resolving it.
 # CPP_Demo_Game
+
+##### This demonstration game comes to show a simple shooter game concept.
+##### It is by no means a finished project, but more of a demo of this idea.
+##### The player operates in a single level with 2 mannequins coming to drain their health. 
+##### The player needs to keep distance and score points by shooting at them, one will always come very close, and the other keeps a small distance (i.e. can be "pushed").
+##### The player can recharge their health and gain a speed boost by picking up the spinning power up.
+##### The game demonstrates first person movement, shooting (pre-made ball physics so that is the only thing I cannot take credit for), ready-made royalty-free mesh objects placement, scaling and rotation, objects from primitives created and textured by me, as well as correct face drawing so the lighting hits every object from the proper angle to create smooth shading, AI movement, collision detection, and basic gameplay elements such as health, points, and game over detection.
+
+#### [!!!] Please note: A known bug is that the ball might not fire correctly (freezes in one place). To make sure it works in game, shoot it while in the menu (before hitting Enter to start). [!!!]
+
+## Controls:
+
+##### WASD - Move forward/backward/left/right
+##### C - Crouch
+##### Space - Shoot
+##### Enter - Start the game
+
+
+## Screenshots and GIFs:
+
+![1](/Screenshots/1.bmp)
+
+![2](/Screenshots/2.bmp)
+
+![3](/Screenshots/11.gif)
+
+![4](/Screenshots/22.gif)
