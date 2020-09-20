@@ -11,10 +11,10 @@
 
 ## Controls:
 
-##### WASD - Move forward/backward/left/right
-##### C - Crouch
-##### Space - Shoot
-##### Enter - Start the game
+##### WASD - move forward/backward/left/right
+##### C - crouch
+##### Space - shoot
+##### Enter - start the game
 
 
 ## Screenshots and GIFs:
